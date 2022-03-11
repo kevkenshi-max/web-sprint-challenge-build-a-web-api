@@ -14,8 +14,8 @@ Pull your server into this file and start it!
 */
 const server = require("./api/server");
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 9000;
 
-server.listen(5000, () => {
+server.listen(9000, () => {
   console.log(`\n *** Server Running on http://localhost:${port} ***\n`);
 });
